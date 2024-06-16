@@ -50,12 +50,12 @@ st.markdown(f"<span style='font-size: 18px; font-weight: bold;'>{Comments}</span
 st.text_area("Do you have any comments?", label_visibility='collapsed')
 
 # If button is pressed
-#if st.button("Know your IAQ"):
+if st.button("Know your IAQ"):
     
     
     # Store inputs into dataframe
-    #X = pd.DataFrame([[volume, students, occtime, openwindow, windowtime, opendoor, doortime]], 
+    X = pd.DataFrame([[volume, students, occtime, openwindow, windowtime, opendoor, doortime]], 
                      #columns = ["VOLUME", "TOTAL_STUDENTS", "OCCUPIED_TIME", "OPENING_SIZE_WINDOW",
-                               # "OPENINNG_WINDOW_TIME", "OPENING_SIZE_DOOR", 
-                                #"OPENING_DOOR_TIME"])
+                                "OPENINNG_WINDOW_TIME", "OPENING_SIZE_DOOR", 
+                                "OPENING_DOOR_TIME"])
     

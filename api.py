@@ -55,7 +55,7 @@ if st.button("Know your IAQ"):
     
     # Store inputs into dataframe
     X = pd.DataFrame([[volume, students, occtime, openwindow, windowtime, opendoor, doortime]], 
-                     #columns = ["VOLUME", "TOTAL_STUDENTS", "OCCUPIED_TIME", "OPENING_SIZE_WINDOW",
+                     columns = ["VOLUME", "TOTAL_STUDENTS", "OCCUPIED_TIME", "OPENING_SIZE_WINDOW",
                                 "OPENINNG_WINDOW_TIME", "OPENING_SIZE_DOOR", 
                                 "OPENING_DOOR_TIME"])
     

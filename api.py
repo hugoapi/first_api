@@ -3,36 +3,13 @@ import pandas as pd
 from PIL import Image
 import joblib
 
-# In[2] custom font
-# Define custom CSS to set font size, font style, and font weight
-custom_css = """
-    <style>
-        /* Set font size to 18px */
-        body {
-            font-size: 18px !important;
-        }
-        
-        /* Set font style to Arial */
-        body {
-            font-family: CenturyGothic, sans-serif !important;
-        }
-        
-        /* Set font weight to bold */
-        body {
-            font-weight: bold !important;
-        }
-    </style>
-"""
+
 
 # Inject custom CSS into the app using st.markdown
 st.markdown(custom_css, unsafe_allow_html=True)
 
-# In[2] webapp
-# Title
-#img = Image.open("IAQ4EDU.png")
-#st. image(img)
 
-# In[3] webapp
+
 
 # Selectbox
 Season = "Season"
